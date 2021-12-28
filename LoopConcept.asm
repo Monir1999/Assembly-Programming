@@ -16,10 +16,10 @@ main proc
     mov dl,10
     int 21h
     
-    mov dl,13
+    mov dl,13                       
     int 21h
     
-    mov cx,26
+    mov cx,67
     mov ah,2
     mov dl,'A'
     
